@@ -1,4 +1,5 @@
 # Adminlte3Template
+Este proyecto contiene una plantilla de angular con Adminlte3
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
