@@ -9,11 +9,11 @@ npm install
 npm install admin-lte@^3.0 --save
 
 ## Estructura de la plantilla
-Auth - Todo lo relacionado con login y registro
-Pages - Todas las páginas de la web
-Shared - Los elementos que comparten las páginas: Navbar, footer, sidebar...
-Services - Servicios de Angular: Conexión a BBDD, API Rest..
-nopage-found - Cuando se introduzca una URL incoherente
+- Auth: Todo lo relacionado con login y registro
+- Pages: Todas las páginas de la web
+- Shared: Los elementos que comparten las páginas: Navbar, footer, sidebar...
+- Services: Servicios de Angular: Conexión a BBDD, API Rest..
+- nopage-found: Cuando se introduzca una URL incoherente
 
 # Como recrear esta estructura
 1. Crear las carpetas auth, pages, services y shared dentro de la carpeta "app"
