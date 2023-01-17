@@ -51,11 +51,15 @@ https://www.youtube.com/watch?v=UFVPuPI6blE 33:10
 
 
 
-Referencias:
-Estructura básica de componentes:
+# Referencias:
+- Estructura básica de componentes:
 https://www.youtube.com/watch?v=UFVPuPI6blE
-Usar la librería de Adminlte:
+- Usar la librería de Adminlte:
 https://www.youtube.com/watch?v=dlBb1Z_8FiI
+
+
+
+#Instrucciones
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.5.
 
