@@ -19,24 +19,24 @@ npm install admin-lte@^3.0 --save
 1. Crear las carpetas auth, pages, services y shared dentro de la carpeta "app"
 2. Crear los siguientes elementos
 
-ng g m auth/auth-roouting --flat
-ng g m pages/pages-routing --flat
-ng g c auth/login
-ng g c auth/register
-ng g m auth/auth --flat
+- ng g m auth/auth-roouting --flat
+- ng g m pages/pages-routing --flat
+- ng g c auth/login
+- ng g c auth/register
+- ng g m auth/auth --flat
 
-ng g c pages/pages --flat
-ng g c pages/dashboard 
-//Todas las páginas de tu proyecto
-ng g m pages/pages --flat
+- ng g c pages/pages --flat
+- ng g c pages/dashboard 
+- DENTRO DE PAGES CREAR TODAS TUS PÁGINAS
+- ng g m pages/pages --flat
 
-ng g m shared/shared --flat
-ng g c shared/header
-ng g c shared/sidebar
-ng g c shared/breadcrumbs
-ng g c shared/footer
+- ng g m shared/shared --flat
+- ng g c shared/header
+- ng g c shared/sidebar
+- ng g c shared/breadcrumbs
+- ng g c shared/footer
 
-ng g c nopage-found 
+- ng g c nopage-found 
 
 # Configurar los routing a tu gusto (Ver ficheros)
   page-routing
