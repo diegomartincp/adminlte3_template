@@ -18,6 +18,7 @@ nopage-found - Cuando se introduzca una URL incoherente
 # Como recrear esta estructura
 1. Crear las carpetas auth, pages, services y shared dentro de la carpeta "app"
 2. Crear los siguientes elementos
+
 ng g m auth/auth-roouting --flat
 ng g m pages/pages-routing --flat
 ng g c auth/login
