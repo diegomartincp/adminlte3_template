@@ -2,12 +2,14 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router'; //Importar para usar Routes en la variable como en el resto de módulos de la aplicacion
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { PagesComponent } from './pages.component';
 
 const routes:Routes = [
-  { path: 'dashboard', component: DashboardComponent,
+  { path: 'dashboard', component: PagesComponent,
   //AÑADIR AQUÍ LAS PÁGINAS DEL PROYECTO
   children:[
-      { path: '',   component: DashboardComponent },
+      { path: 'inicio',   component: InicioComponent },
       //{ path: 'usuarios',   component: DashboardComponent },, //Las páginas de nuestra app
     ]
   } 
