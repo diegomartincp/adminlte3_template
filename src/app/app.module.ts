@@ -9,6 +9,9 @@ import { NopageFoundComponent } from './nopage-found/nopage-found.component';
 import { AuthModule } from './auth/auth.module';
 import { PagesModule } from './pages/pages.module';
 
+//http
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,8 @@ import { PagesModule } from './pages/pages.module';
     BrowserModule,
     AppRoutingModule, //Para routing
     AuthModule,  //importar AuthModule
-    PagesModule //importar PagesModule
+    PagesModule, //importar PagesModule
+    HttpClientModule //para el api service
   ],
   providers: [],
   bootstrap: [AppComponent]

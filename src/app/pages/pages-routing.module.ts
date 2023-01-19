@@ -5,11 +5,13 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { PagesComponent } from './pages.component';
 
+
 const routes:Routes = [
   { path: 'dashboard', component: PagesComponent,
   //AÑADIR AQUÍ LAS PÁGINAS DEL PROYECTO
   children:[
-      { path: 'inicio',   component: InicioComponent },
+      { path: '',   component: DashboardComponent },
+      { path: 'inicio',   component: InicioComponent }
       //{ path: 'usuarios',   component: DashboardComponent },, //Las páginas de nuestra app
     ]
   } 
